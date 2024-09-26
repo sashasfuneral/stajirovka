@@ -1,0 +1,151 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+input {
+  margin-bottom: 15px;
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.article-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.edit-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+input, textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea {
+  height: 100px;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px; 
+}
+
+.article-list-container {
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh; 
+  background-color: #f0f0f0; 
+}
+
+.article-item {
+  cursor: pointer; 
+  padding: 15px; 
+  margin: 10px; 
+  border: 1px solid #ccc; 
+  border-radius:5px; 
+background-color:white; 
+width :80%; 
+text-align:center; 
+}
+
+.article-item:hover {
+background-color:#e0e0e0; 
+}
+
+.new-article-button {
+padding :10px20px; 
+border:none; 
+border-radius :4px; 
+background-color :#007bff; 
+color:white; 
+cursor:pointer; 
+}
+
+.new-article-button:hover {
+background-color :#0056b3; 
+}
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.article-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
